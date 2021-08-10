@@ -7,329 +7,8 @@
     <meta name="viewport" content="width=device-width" , initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Document</title>
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-            font-family: "Roboto", sans-serif;
-        }
+    <link rel="stylesheet" href="button.css">
 
-        #navbar {
-
-            background-color: #ffe400;
-            ;
-            font-weight: 500;
-            height: 50PX;
-        }
-
-
-        .navleft {
-            position: absolute;
-            margin-left: 70px;
-            top: 12px;
-            width: 150px;
-
-        }
-
-        .navleft:hover {
-            cursor: text;
-        }
-
-        .navleft span {
-            font-size: 12px;
-
-        }
-
-        .navmid {
-            position: absolute;
-            width: 687px;
-            display: block;
-            top: 15px;
-            margin: auto;
-            font-size: 12px;
-            left: 272px;
-        }
-
-        .navmid:hover {
-            cursor: text;
-        }
-
-        .navright {
-            position: absolute;
-            float: right;
-            width: 150px;
-            right: 100px;
-
-            font-size: 12px;
-
-
-
-        }
-
-        .navright:hover {
-            cursor: text;
-        }
-
-        .navright span {
-            font-size: 15px;
-        }
-
-        .navright a {
-            text-decoration: none;
-            line-height: 50px;
-        }
-
-        #navbar2 {
-            background-color: black;
-            width: 100%;
-            height: 90px;
-            /* position: sticky; */
-            /* top: 0px; */
-
-
-        }
-
-        .img2 {
-            position: absolute;
-            width: fit-content;
-            top: 50px;
-            left: 75px;
-        }
-
-        #navlist {
-            display: flex;
-            margin: 7px;
-            padding: 2px;
-            font-size: 19px;
-            color: white;
-            justify-content: center;
-            line-height: 50px;
-            width: fit-content;
-
-
-            margin: auto;
-            margin-left: 168px;
-
-
-        }
-
-        #navlist li {
-            list-style: none;
-            color: white;
-            margin: 13px;
-            text-decoration: none;
-
-        }
-
-        #navlist .item a {
-            text-decoration: none;
-            color: white;
-        }
-
-        #navlist li a:hover {
-            cursor: pointer;
-        }
-
-        .btn {
-            position: absolute;
-            float: right;
-            width: fit-content;
-            line-height: 26px;
-            top: 70px;
-            right: 60px;
-
-
-
-        }
-
-        #btn1 {
-            font-size: 19px;
-            margin: 5px;
-            background-color: black;
-            border: 2px solid #ffe400;
-            color: #ffe400;
-            width: 100px;
-            height: 40px;
-        }
-
-        #btn2 {
-            font-size: 19px;
-            margin: 5px;
-            background-color: #ffe400;
-
-            width: 100px;
-            height: 40px;
-        }
-
-        .blackstrip {
-            width: 100%;
-            height: 80px;
-            background-color: black;
-        }
-
-        .mainheading {
-            width: 100%;
-            height: 100px;
-            margin-top: 130px;
-
-        }
-
-        .uphead {
-            width: 300px;
-            font-weight: bold;
-            margin: auto;
-            top: 100px;
-            font-size: 32px;
-        }
-
-        .downhead {
-            color: rgb(255, 228, 0);
-            width: 400px;
-            margin: auto;
-            font-family: Roboto Condensed;
-            font-size: 36px;
-
-        }
-
-        #midimg {
-            width: 100%;
-            height: 200px;
-            display: flex;
-            align-items: center;
-
-        }
-
-        #midimg .img {
-            margin: 27px;
-            padding: 24px;
-
-        }
-
-        .midpart img {
-            position: absolute;
-            width: 100%;
-            height: 300px;
-            z-index: -1;
-        }
-
-        .text {
-            width: 582px;
-            height: 250px;
-            margin: 50px auto;
-            position: relative;
-            top: 100px;
-
-        }
-
-        #text1 {
-            font-size: 39px;
-            color: #ffe400;
-            font-weight: 500;
-            z-index: 1;
-        }
-
-        #text2 {
-            position: absolute;
-            width: 600px;
-            margin: auto;
-            font-size: 18px;
-            color: #ffe400;
-            margin: 10px;
-            right: -27px;
-        }
-
-        #btnimg button {
-            font-size: 11px;
-            border: #ffe400 2px solid;
-            color: #ffe400;
-            background-color: black;
-            float: right;
-            position: relative;
-            right: 129px;
-            top: -193px;
-            width: 160px;
-            padding: 11px;
-        }
-
-        .imgthree {
-            width: 100%;
-            height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
-
-        .imgthree li {
-            list-style: none;
-            float: left;
-            margin: 33px;
-        }
-
-        .imgthree li img {
-            width: 338px;
-            height: 107px;
-
-        }
-
-        .offer {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            height: 270px;
-            margin-top: 33px;
-            background:url("https://goldsgym.in/assets/frontend/css/off.jpg");
-
-        }
-
-        .item1 {
-            left: 80px;
-            width: fit-content;
-            font-size: 51px;
-            color: #ffe400;
-            position: relative;
-            top: 85px;
-            font-weight: bold;
-            padding: -5px;
-        }
-
-        .item2{
-            position: relative;
-            width: fit-content;
-            margin: auto;
-            right: 126px;
-        }
-        .item2up{
-            font-size: 34px;
-            color: #ffe400;
-
-        }
-
-        .item2down {
-            color: #ffe400;
-            font-size: 15px;
-            z-index: 1;
-            margin-top:5px ;
-        }
-
-        .item3 {
-            width: fit-content;
-            right: 194px;
-            top: 107px;
-            position: relative;
-        }
-
-        .item3 button {
-
-            color: #ffe400;
-            border: 3px solid #ffe400;
-            background-color: black;
-            float: right;
-            width: 167px;
-            font-size: 14px;
-            height: 48px;
-        }
-    </style>
 </head>
 
 <body>
@@ -495,9 +174,130 @@
 
 
     </div>
+    <div id="testimonials">
+        <div id="test">
+            TESTIMONIALS
+        </div>
+        <br>
+        <div id="clint">
+            WHAT OUR CLINT SAYS
+        </div>
+        <div id="comma">
+            <div class="col-xs-24 col-sm-16 col-md-12 show-sm" style="">
+                <span id="symbol" class="symbol large"> “ </span>
+            </div>
+
+        </div>
+    </div>
+    <div id="blog">
+        <div class="latest">
+            THE LATEST BLOGS
+
+        </div>
+        <div id="paragraph">
+            <ul>
+                <li id="item1"></li>
+                <div id="firstpara" class="para">
+                    <span class="yellowbox"></span>
+                    <span style="color:#e4cc00 !important;">At 00:00:00 /</span>
+                    <span>admin</span>
+                    <h3 id="head1">IS BANANA GOOD FOR WEIGHT LOSS?</h3>
+                    <p id="para1">
+                        Bananas are a healthful addition to a <br> balanced diet for weight loss, as they <br>
+                        provide a range of vital nutrients and are <br> a good source of fiber. Bananas make an <br>
+                        excellent snack food, dessert or breakfast. <br> Their versatility makes them easy to add
+                        <br> to your diet plan for
+                    </p>
+                </div>
+
+
+                </li>
+                <li id="item2">
+                    <div id="secondpara" class="para">
+                        <span class="yellowbox"></span>
+
+                        <span style="color:#e4cc00 !important;">At 00:00:00 /</span>
+                        <span>admin</span>
+
+
+                        <h3 id="head2">HOW DO I CUT DOWN BELLY FAT?</h3>
+                        <p id="para2">
+                            ‘Abs are made in the kitchen’. How many <br> times have you heard or seen this quote
+                            <br> while browsing on how to lose belly fat <br> fast? This holds true, without a
+                            proper diet <br> with the proper foods, you will not achieve <br> those six pack abs
+                            that you crave so <br> much. But what foods
+                        </p>
+                    </div>
+
+                </li>
+                <li id="item3">
+                    <div id="thirdpara" class="para">
+                        <span class="yellowbox"></span>
+
+                        <span style="color:#e4cc00 !important;">At 00:00:00 /</span>
+                        <span>admin</span>
+
+                        <h3 id="head3">GROW, NOURISH, SUSTAIN THROUGH FOOD!</h3>
+                        <p id="para3">
+                            It’s said the basic need of the individual is <br> roti (food), kapda (body) and makaan
+                            <br> (shelter). Give a deep thought to this, you <br> will be amazed that food
+                            influences the <br> clothes size that we wear and the kind of <br> sleep that we get
+                            each day! Is it that <br> people who are not getting enough food are
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 
 
+
+    <div class="image-para">
+        <div id="image1" class="box">
+            <ul>
+                <li><img src="https://goldsgym.in/uploads/events/compress-3-2-580x400.jpg" alt="">
+                    <div id="text-one" class="textfooter">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quod! Necessitatibus eaque ullam
+                        <a href="">Read More</a>
+
+                        
+                        
+                    </div>
+                </li>
+
+        </div>
+        <div id="image2" class="box">
+            <li>
+                <img src="https://goldsgym.in/uploads/events/compress-6-1-580x400.jpg">
+                <div id="text-two" class="textfooter">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum hasLorem Ipsum is simply dummy text of the printing and typesettinindustry.
+                        
+                        <a href="">Read More</a>
+                </div>
+            </li>
+        </div>
+        <div id="image3" class="box">
+            <li>
+                <img src="https://goldsgym.in/uploads/events/compress-GGFI buddy referral post June-01.jpg">
+                <div id="text-three" class="textfooter">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure at sunt iusto, et aspernatur
+                    voluptatem ipsa explicabo id officiis maiores,
+                    <a href="">Read More</a>
+
+                   .
+                </div>
+
+
+
+                <p>Gold's Gyms 22nd birthday</p>
+
+        </div>
+        <a href="">Read More</a>
+        </li>
+        </ul>
+    </div>
 
 </body>
 
