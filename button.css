@@ -1,0 +1,534 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+
+    background-color: #ffe400;
+    font-weight: 500;
+    height: 50PX;
+}
+
+
+.navleft {
+    position: absolute;
+    margin-left: 70px;
+    top: 12px;
+    width: 150px;
+
+}
+
+.navleft:hover {
+    cursor: text;
+}
+
+.navleft span {
+    font-size: 12px;
+
+}
+
+.navmid {
+    position: absolute;
+    width: 687px;
+    display: block;
+    top: 15px;
+    margin: auto;
+    font-size: 12px;
+    left: 272px;
+}
+
+.navmid:hover {
+    cursor: text;
+}
+
+.navright {
+    position: absolute;
+    float: right;
+    width: 150px;
+    right: 100px;
+
+    font-size: 12px;
+
+
+
+}
+
+.navright:hover {
+    cursor: text;
+}
+
+.navright span {
+    font-size: 15px;
+}
+
+.navright a {
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#navbar2 {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+
+}
+
+.img2 {
+    position: absolute;
+    width: fit-content;
+    top: 7px;
+    left: 75px;
+
+}
+
+#navlist {
+    display: flex;
+    margin: 7px;
+    padding: 2px;
+    font-size: 19px;
+    color: white;
+    justify-content: center;
+    line-height: 50px;
+    width: fit-content;
+
+
+    margin: auto;
+    margin-left: 168px;
+
+
+}
+
+#navlist li {
+    list-style: none;
+    color: white;
+    margin: 13px;
+    text-decoration: none;
+
+}
+
+#navlist .item a {
+    text-decoration: none;
+    color: white;
+}
+
+#navlist li a:hover {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    float: right;
+    width: fit-content;
+    line-height: 26px;
+    top: 70px;
+    right: 60px;
+
+
+
+}
+
+#btn1 {
+    font-size: 19px;
+    margin: 5px;
+    background-color: black;
+    border: 2px solid #ffe400;
+    color: #ffe400;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: -50px;
+}
+
+#btn2 {
+    font-size: 19px;
+    margin: 5px;
+    background-color: #ffe400;
+    position: relative;
+    top: -50px;
+     width: 100px;
+    height: 40px;
+}
+
+.blackstrip {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.mainheading {
+    width: 100%;
+    height: 100px;
+    margin-top: 130px;
+
+}
+
+.uphead {
+    width: 300px;
+    font-weight: bold;
+    margin: auto;
+    top: 100px;
+    font-size: 32px;
+}
+
+.downhead {
+    color: rgb(255, 228, 0);
+    width: 400px;
+    margin: auto;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+
+}
+
+#midimg {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+#midimg .img {
+    margin: 27px;
+    padding: 24px;
+
+}
+
+.midpart img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+
+.text {
+    width: 582px;
+    height: 250px;
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+
+}
+
+#text1 {
+    font-size: 39px;
+    color: #ffe400;
+    font-weight: 500;
+    z-index: 1;
+}
+
+#text2 {
+    position: absolute;
+    width: 600px;
+    margin: auto;
+    font-size: 18px;
+    color: #ffe400;
+    margin: 10px;
+    right: -27px;
+}
+
+#btnimg button {
+    font-size: 11px;
+    border: #ffe400 2px solid;
+    color: #ffe400;
+    background-color: black;
+    float: right;
+    position: relative;
+    right: 129px;
+    top: -193px;
+    width: 160px;
+    padding: 11px;
+}
+
+.imgthree {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgthree li {
+    list-style: none;
+    float: left;
+    margin: 33px;
+}
+
+.imgthree li img {
+    width: 338px;
+    height: 107px;
+
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 270px;
+    margin-top: 33px;
+    background:url("https://goldsgym.in/assets/frontend/css/off.jpg");
+    z-index: -1;
+
+}
+
+.item1 {
+    left: 80px;
+    width: fit-content;
+    font-size: 51px;
+    color: #ffe400;
+    position: relative;
+    top: 85px;
+    font-weight: bold;
+    padding: -5px;
+}
+
+.item2{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    right: 126px;
+}
+.item2up{
+    font-size: 34px;
+    color: #ffe400;
+
+}
+
+.item2down {
+    color: #ffe400;
+    font-size: 15px;
+    z-index: 1;
+    margin-top:5px ;
+}
+
+.item3 {
+    width: fit-content;
+    right: 194px;
+    top: 107px;
+    position: relative;
+}
+
+.item3 button {
+
+    color: #ffe400;
+    border: 3px solid #ffe400;
+    background-color: black;
+    float: right;
+    width: 167px;
+    font-size: 14px;
+    height: 48px;
+}
+#testimonials{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 245px;
+    margin-top: 50px;
+    
+}
+#test{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+#clint{
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    text-align: center;
+}
+#comma{
+    font-size: 200px;
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: -68px;
+    position: relative;
+    bottom: 21px;
+    left: 4px;
+    top: -31px;
+}
+#blog{
+    background-image: url(https://goldsgym.in/assets/frontend/css/workbaner.jpg);
+    width: 100%;
+    height: 500px;
+    list-style: none;
+}
+.latest{
+    position: relative;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+    width: fit-content;
+    left: 80px;
+    top: 51px;
+    color: white;
+}
+#paragraph{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* width: 400px; */
+    height: 408px;
+    margin-top: 38px;
+    margin-left: 61px;
+}
+#paragraph ul{
+    list-style: none;
+    display: flex;
+
+}
+#firstpara{
+   font-size: 13px; 
+   color: white;
+   width: 350px;
+    height: 300px;
+}
+#firstpara span{
+    line-height: 2px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#secondpara{
+    font-size: 13px;
+    position: relative;
+    color: white;
+    width: 353px;
+    height: 300px;
+    left: 13px;
+    top: -60px;
+}
+#secondpara span{
+    line-height: 2px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#thirdpara{
+    float: right;
+    font-size: 13px;
+    color: white;
+    width: 350px;
+    height: 300px;
+}
+#thirdpara span{
+    line-height: 2px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.para{
+    margin: 13px;
+    line-height: 30px;
+    position: relative;
+    top: -69px;
+}
+
+#head2{
+    top: -12;
+    position: relative;
+}
+#para1{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+#para2{
+    font-size: 15px;
+    font-weight: 300;
+}
+#para3{
+    font-size: 15px;
+    font-weight: 300;
+}
+.yellowbox{
+    background: #ffe400;
+    display: block;
+    position: relative;
+    height: 70px;
+    left: -19%;
+    top: 26%;
+    width: 54px;
+}
+.image-para{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+#text-one{
+    font-size: 16px;
+    width: 200;
+    height: 200px;
+    color: black;
+}
+#text-two{
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+    color: black;
+
+}
+#text-three{
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+    color: black;
+
+}
+.textfooter{
+    position: relative;
+    top: 60px;
+}
+
+#image1{
+    position: relative;
+    left:59px;
+}
+#image1 img{
+    width: 300px;
+
+
+}
+#image2{
+    position: relative;
+    left:10px;
+}
+
+#image2 img{
+    width: 300px;
+
+}
+#image3{
+    position: relative;
+    left:-55px;
+}
+#image3 img{
+    width: 300px;
+
+}
+.box{
+    margin:50px;
+}
+#image-para ul li{
+    list-style: none;
+
+}
+
+
